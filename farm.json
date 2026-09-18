@@ -1,0 +1,20 @@
+{
+  "farm_id": 69,
+  "name": "cerebron-farm-69-causal-discovery",
+  "domain": "causal-discovery",
+  "status": "SCAFFOLDED",
+  "protocol": "SPIRALIX-OMEGA",
+  "capabilities": [
+    "causal-discovery",
+    "causal-hypothesis-tests",
+    "intervention-design"
+  ],
+  "evidence_ceiling": "E2-before-real-intervention",
+  "kernel": "dmaillot95-ui/cerebron-omega-ai",
+  "rules": [
+    "CORRELATION!=CAUSALITY",
+    "OBSERVATIONAL_ASSOCIATION!=INTERVENTION",
+    "CLAIM<=EVIDENCE",
+    "CONFOUNDING_MUST_REMAIN_VISIBLE"
+  ]
+}
